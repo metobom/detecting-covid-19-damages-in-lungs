@@ -4,8 +4,7 @@ To find damage in lungs caused by Covid-19 I trained UNet (by zhixuhao) for lung
 # Explanation
 corona.hdf5 weights of consolidation detection and lungs_for_corona is weights for lung detection. train.py, model.py, main.py, test_imgs, data.py and dataPrepare.py files are about UNet. predict_and_calculate_score is the one file that calculates % of consolidations. You can run predict_and_calculate_score to test images inside of test_inputs folder.
 
-NOTE 1: Weights are trained for 2000 steps and 2 epoch. There are errors due to poor annotation, less training and stuff. 
-NOTE 2: I can't upload weights here because they are bigger than 25MB. You can mail me for weights or you can train your own dataset.
+NOTE 1: I can't upload weights here because they are bigger than 25MB. You can mail me for weights or you can train your own dataset.
 
 My EARLY DEMO: https://www.youtube.com/watch?v=IBCzTVI_9lI
 
